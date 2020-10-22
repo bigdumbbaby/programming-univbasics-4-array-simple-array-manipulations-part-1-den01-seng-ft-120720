@@ -10,9 +10,6 @@ def using_pop(array)
 end
 
 def pop_with_args(array, num = 2)
-  while num !=0 do
-    array.pop 
-    num -= 1 
-  end
+  array.pop(num)
 end
   
